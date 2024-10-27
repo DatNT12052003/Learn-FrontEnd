@@ -1,0 +1,14 @@
+ #firstId {
+     color: yellow;
+     border: 1px solid red;
+ }
+
+ #secondId {
+     color: red;
+     text-align: center;
+ }
+
+ .first-class {
+     height: 500px;
+     width: 500px;
+ }
