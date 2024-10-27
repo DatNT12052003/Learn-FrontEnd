@@ -1,0 +1,12 @@
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner{
+    border: 1px solid red;
+    height: 865px;
+    width: 100%;
+    background: url('/Pratice_HTML/image/banner.jpg') center no-repeat;
+}
