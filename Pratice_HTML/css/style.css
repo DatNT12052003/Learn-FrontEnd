@@ -45,7 +45,7 @@ body{
     height: 100px;
 }
 
-.content-left, .content-center, .content-right {
+.content div {
     width: 33%;
     display: inline-block;
     text-align: center;
@@ -53,12 +53,16 @@ body{
     margin-bottom: 20px;
 }
 
-span{
+.content span{
     display: block;
     font-size: 20px;
 }
 
-img{
+.text span{
+    color: green;
+}
+
+.content img{
     width: 30px;
     height: 30px;
 }
