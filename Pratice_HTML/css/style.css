@@ -4,9 +4,83 @@ body{
     padding: 0 !important;
 }
 
-.banner{
+.red{
     border: 1px solid red;
+}
+
+.green{
+    border: 1px solid green;
+}
+
+.banner{
     height: 865px;
     width: 100%;
     background: url('/Pratice_HTML/image/banner.jpg') center no-repeat;
 }
+
+.about-sign-in{
+    height:  80px;
+    width: 100%;
+    text-align: right;
+}
+
+.sign-in, .about{
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 8px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.sign-in{
+    margin-right: 70px;
+    margin-left: 25px;
+    border: 1.5px solid rgb(10, 185, 39);
+    border-radius: 60px;
+}
+
+.logo{
+    background: url('/Pratice_HTML/image/hapoERP.png') center no-repeat;
+    margin-top: 100px;
+    height: 100px;
+}
+
+.content-left, .content-center, .content-right {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span{
+    display: block;
+    font-size: 20px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+.text{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.start-now{
+    text-align: center;
+}
+
+.button-start-now{
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border-radius: 20px;
+    border-width: 0.5px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(88, 247, 247);
+}
+
+
+
